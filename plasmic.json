@@ -1,0 +1,80 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "2vxU5Gk3xzhnyicwocpgjs",
+      "projectApiToken": "2eHmftjpoczGgkdBhrqSHMakNO5EeVXVNxheCTEP0weaPJsa9tsrdu7AZevwmvMcPRdVqD2lkxvY96KupbqPA",
+      "projectName": "My Cool Project",
+      "version": "latest",
+      "cssFilePath": "plasmic/my_cool_project/plasmic_my_cool_project.module.css",
+      "components": [
+        {
+          "id": "rLQF4aTTaj",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "2vxU5Gk3xzhnyicwocpgjs",
+          "renderModuleFilePath": "plasmic/my_cool_project/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/my_cool_project/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "mUie5PUJO7N",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/my_cool_project/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "MKfLFvEVRDe",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/my_cool_project/icons/PlasmicIcon__Icon2.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "7tF0rLbTIMy",
+          "name": "image.png",
+          "filePath": "plasmic/my_cool_project/images/imagepng.jpeg"
+        }
+      ],
+      "indirect": false,
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "1JPcYydR-GD",
+        "name": "Screen",
+        "projectId": "2vxU5Gk3xzhnyicwocpgjs",
+        "contextFilePath": "plasmic/my_cool_project/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.167",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.167/dist/plasmic.schema.json"
+}
